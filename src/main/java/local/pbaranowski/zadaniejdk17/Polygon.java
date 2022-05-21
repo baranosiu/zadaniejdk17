@@ -2,7 +2,7 @@ package local.pbaranowski.zadaniejdk17;
 
 import java.util.List;
 
-public sealed abstract class Polygon implements Shape,Message permits Section,Triangle {
+public sealed abstract class Polygon implements Shape, Message permits Section, Triangle {
 
     private final List<Point> corners;
 
